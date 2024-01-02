@@ -5,7 +5,7 @@ import requests
 import streamlit as st
 import yfinance as yf
 
-API_URL = "http://127.0.0.1:8000/LSTM_Predict"
+API_URL = "http://127.0.0.1:8000"
 
 MIN_DATE = datetime.date(2020, 1, 1)
 MAX_DATE = datetime.date(2024, 12, 31)
